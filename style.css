@@ -1,0 +1,156 @@
+body{
+    background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.nav li {
+    display:inline-block;
+    list-style-type: none;
+    padding: 19px 19px  
+}
+
+.signin{
+    padding:19px 19px  ;
+}
+
+.signin button{
+    background-color: black;
+    color: white;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.viewall{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-left: 50%;
+}
+
+.sofa{
+    position: relative;
+    text-align: center;
+    
+}
+.get10text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.imgsofa{
+    height:-50%;
+    width:100% ;
+}
+
+
+
+.best{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: table;
+    clear: both;
+    content: " ";
+    flex-wrap: wrap;
+    border: solid;
+    
+    
+    
+}
+.best img{
+    width: 40%;
+
+    
+    
+}
+.weprovide{
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.bestcollection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.bestcollection img{
+    width: 20%;
+    height: fit-content;
+}
+.foryour{
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.recommended{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.recommended button{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.recommended img{
+    width: 50%;
+    margin-left: 30%;
+}
+.recommended h2{
+    font-size: 300%;
+}
+.advantage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.adv{
+    background-color: burlywood;
+}
+.ouradv{
+    text-align: center;
+    font-size: 300%;
+}
+.minimal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.minimal button{
+    background-color: black;
+    color: white;
+    height: 9%;
+    
+    
+}
+.minimal img {
+    width:80%;
+    padding-top: 50px;
+}
+
+#imgmini{
+width: 80%;
+padding-left: 10%;
+margin-top: -90px;
+}
+.h1{
+    text-align: left;
+    font-size: 250%;
+    font-weight: 500;
+}
