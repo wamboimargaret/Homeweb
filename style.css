@@ -1,7 +1,9 @@
 body{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
     padding: 0px 90px;
-
+}
+.box{
+    background-color: rgb(241, 245, 245)
 }
 
 
@@ -24,6 +26,8 @@ body{
 .signin button{
     background-color: black;
     color: white;
+    padding: 3px 8px;
+    
 }
 
 
@@ -69,6 +73,8 @@ body{
 .imgsofa{
     height:-50%;
     width:100% ;
+    opacity: 0.9;
+    filter: brightness(70%);
 }
 
 
@@ -126,7 +132,7 @@ opacity:0.9;
     text-align: center;
     font-size: 450%;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 25%;
+    margin-top: -4%;
     font-weight: normal;
 
     
@@ -138,45 +144,89 @@ opacity:0.9;
     
 }
 .bestcollection img{
-    width: 20%;
-    height: fit-content;
+    width: 90%;
+    height: 50%;
+    border: solid black;
+    
+    
 }
+
+
 .foryour{
     text-align: center;
-    font-size: 300%;
+    font-size: 450%;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 15%;
+    font-weight: normal;
     
 }
 .recommended{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 20%;
     
 }
 .recommended button{
     color: white;
     background-color: black;
     text-align: center;
+    padding: 15px;
+    width: 150px;
 }
 .recommended img{
     width: 50%;
     margin-left: 30%;
 }
 .recommended h2{
-    font-size: 300%;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -4%;
+    font-weight: normal;
 }
 .advantage{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+
 }
-.adv{
-    background-color: burlywood;
+.adv2{
+    background-color: wheat;
+    padding: 20px;
+    width: 27%;
+    height: 20%;
+    
+}
+.adv3{
+    background-color: wheat;
+    padding: 20px;
+    width: 27%;
+    height: 20%;
+    
+}
+.adv4{
+    background-color: wheat;
+    padding: 20px;
+    width: 27%;
+    margin-right: 1%
+}
+
+ p3{
+    font-size: 400%;
+    font-weight: normal;
+}
+ p2{
+    font-size: 200%;
+    font-weight: normal;
+
 }
 .ouradv{
     text-align: center;
-    font-size: 300%;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15%;
+    font-weight: 500%
+    
 }
 .minimal{
     display: flex;
@@ -186,21 +236,56 @@ opacity:0.9;
 .minimal button{
     background-color: black;
     color: white;
-    height: 9%;
+    padding: 15px;
+    width: 150px;
     
 }
+.minimal p{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .minimal img {
-    width:80%;
+    width: 123%;
     padding-top: 50px;
 }
 
 #imgmini{
 width: 80%;
-padding-left: 10%;
+height: fit-content;
+padding-left: 20%;
 margin-top: -90px;
 }
+
+.arm{
+    display: flex;
+    
+}
+.arm img{
+    width: 45%;
+    height:70% ;
+    margin-left: 10%;
+}
+.arm p{
+    font-size: 150%;
+    margin-top: 20%
+    
+}
+
+.flexarm{
+    display: flex;
+    margin-left: 20%;
+    
+}
+
+
+
 .h1{
+    font-weight: normal;
     text-align: left;
-    font-size: 250%;
-    font-weight: 500;
+    font-size: 240%;
+}
+.name{
+    font-size: 120%;
+    font-weight: normal;
 }
